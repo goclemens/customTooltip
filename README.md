@@ -1,4 +1,4 @@
-# customTooltip
+# Custom Tooltip
 
 CTooltip is an object constructor for a customizable tooltip. The tooltip consists of three parts. A heading (top) a list with metainfos (left) and a svg (right) all three can be fully cusomized by setting functions to get them or build them from the selected (hovered) htmlElement.
 
