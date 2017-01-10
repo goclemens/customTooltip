@@ -18,7 +18,7 @@ Additions:
 - style of the container element ("div") can be customized by "tooltip.setStyle(styles)" (styeles is a js object)
 
 CSS-classes:
-div container: "ctooltip"
-div heading: "ctooltip_heading"
-ul metainfos: "ctooltip_meta"
-div svgContainer: "ctooltip_svg"
+- div container: "ctooltip"
+- div heading: "ctooltip_heading"
+- ul metainfos: "ctooltip_meta"
+- div svgContainer: "ctooltip_svg"
