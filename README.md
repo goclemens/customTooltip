@@ -12,13 +12,13 @@ Usage:
 
 Additions:
 - the tooltip can be removed from htmlElements by "tooltip.removeFrom(htmlElement)"
-- setHeading function has to return a string object
-- setMetainfos function has to return a js-object { firstInfo : "first", secondInfo : "second" ...}
-- setSvg function has to return an svg element (node)
+- setHeading function has to return a **string object**
+- setMetainfos function has to return a **js-object: { firstInfo : "first", secondInfo : "second" ...}**
+- setSvg function has to return an **svg element (node)**
 - style of the container element ("div") can be customized by "tooltip.setStyle(styles)" (styeles is a js object)
 
 CSS-classes:
-- div container: "ctooltip"
-- div heading: "ctooltip_heading"
-- ul metainfos: "ctooltip_meta"
-- div svgContainer: "ctooltip_svg"
+- **div** container: "ctooltip"
+- **div** heading: "ctooltip_heading"
+- **ul** metainfos: "ctooltip_meta"
+- **div** svgContainer: "ctooltip_svg"
