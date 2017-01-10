@@ -89,6 +89,7 @@ function CTooltip(id) {
   }
 
   //#### private functions ####
+  // default settings for the tooltip parts if not set by "this.setPART"
   function getHeading(event) {
 
     return event.target.id;
@@ -118,6 +119,7 @@ function CTooltip(id) {
 
   }
 
+  // event handling
   function onMouseEnter(event) {
 
     // set heading
